@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".MedCartActivity">
+
+    <Button
+        android:id="@+id/buttoncheckmedcart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="293dp"
+        android:layout_marginBottom="37dp"
+        android:background="@color/teal_200"
+        android:text="checkout"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="251dp" />
+
+    <TextView
+        android:id="@+id/textViewtitle"
+        android:layout_width="279dp"
+        android:layout_height="67dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="664dp"
+        android:text="Medicine Cart Details"
+        android:textAlignment="center"
+        android:textColor="#FF9800"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+
+
+    <ListView
+        android:id="@+id/editmedcartmulti"
+        android:layout_width="368dp"
+        android:layout_height="402dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="247dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="27dp" />
+
+    <Button
+        android:id="@+id/buttonmedcartback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="35dp"
+        android:background="@color/teal_200"
+        android:text="Back"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="621dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="142dp"
+        android:text="Select Date "
+        android:textColor="#FFEB3B"
+
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textmedcost"
+        android:layout_width="203dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="181dp"
+        android:text="Total Cost : 1200"
+        android:textColor="#FFFFFF"
+
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonmedcartDate"
+        style="?android:spinnerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="86dp"
+        android:text="30/04/2023"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
